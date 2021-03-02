@@ -1,0 +1,27 @@
+{
+  "name": "@classmethod/lifft-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": " rm -rf ./dist && tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classmethod/lifft-up.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/classmethod/lifft-up/issues"
+  },
+  "homepage": "https://github.com/classmethod/lifft-up#readme",
+  "devDependencies": {
+    "@types/node": "12.20.4",
+    "typescript": "4.2.2"
+  }
+}
