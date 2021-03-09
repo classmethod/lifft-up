@@ -1,5 +1,3 @@
-function hi(name: string) {
-  console.log(`Hello ${name}`)
-}
+import { authorizer } from './authorizer'
 
-export default hi
+export { authorizer }
