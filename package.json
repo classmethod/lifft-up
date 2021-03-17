@@ -8,7 +8,10 @@
   ],
   "scripts": {
     "build": " rm -rf ./dist && tsc",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "publish:patch": "bin/npm-publish.sh patch",
+    "publish:minor": "bin/npm-publish.sh minor",
+    "publish:major": "bin/npm-publish.sh major"
   },
   "repository": {
     "type": "git",
