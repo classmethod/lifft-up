@@ -9,7 +9,7 @@
   "scripts": {
     "build": " rm -rf ./dist && tsc",
     "prepublishOnly": "yarn build",
-    "publish": "bin/npm-publish.sh"
+    "publish": ". bin/npm-publish.sh"
   },
   "repository": {
     "type": "git",
