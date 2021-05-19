@@ -1,3 +1,4 @@
+import { fetch } from '../types/fetch'
 import { AuthorizedPayload } from './authorizedPayload'
 import { AuthorizerError } from './authorizerError'
 
