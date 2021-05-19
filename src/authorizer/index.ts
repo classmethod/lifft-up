@@ -1,6 +1,6 @@
 import { fetch } from '../types/fetch'
 import { AuthorizedPayload } from './authorizedPayload'
-import { AuthorizerError } from './authorizerError'
+import { LifftUpError } from './authorizerError'
 
 export async function authorizer(
   idToken: string,
@@ -20,5 +20,5 @@ export async function authorizer(
   if (response.ok) {
     return json
   }
-  throw new AuthorizerError(json)
+  throw new LifftUpError(json)
 }
