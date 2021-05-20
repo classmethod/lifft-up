@@ -6,8 +6,8 @@ if [ $1 != "patch" ] && [ $1 != "minor" ] && [ $1 != "major" ]; then
 fi
 
 branch=`git rev-parse --abbrev-ref HEAD`
-if [ $branch != "master" ]; then
-  echo "current branch is not master."
+if [ $branch != "main" ]; then
+  echo "current branch is not main."
   return
 fi
 
