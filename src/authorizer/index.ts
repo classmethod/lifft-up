@@ -1,3 +1,4 @@
+import { fetch } from '../polyfill/fetch'
 import { AuthorizedPayload } from './authorizedPayload'
 import { AuthorizerError } from './authorizerError'
 
