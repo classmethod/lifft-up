@@ -2,7 +2,7 @@
 
 ![CI status](https://github.com/classmethod/lifft-up/actions/workflows/create-release.yaml/badge.svg)
 
-**Let's lift up your LIFF apps :weight_lifter:**
+**Let's lift up your LIFF apps 🏋️**
 
 Feature collections to realize your creativity.
 
