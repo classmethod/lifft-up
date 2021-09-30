@@ -17,3 +17,22 @@ npm install @classmethod/lifft-up
 // or
 yarn add @classmethod/lifft-up
 ```
+
+## Usage
+
+Authentication by IDToken.
+
+```
+import * as lifftUp from '@classmethod/lifft-up'
+
+(async () => {
+	// https://developers.line.biz/ja/reference/liff/#get-id-token
+	const idToken = liff.getIDToken()
+	// Specify Liff Channel ID.
+	const clientId = '1234567890'
+	// The IDToken payload will be returned.
+	const payload = await lifftUp.authorizer(idToken, clientId)
+})()
+
+```
+
