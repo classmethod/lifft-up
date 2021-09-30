@@ -2,7 +2,8 @@
 
 ![CI status](https://github.com/classmethod/lifft-up/actions/workflows/create-release.yaml/badge.svg)
 
-*Let's lift up your LIFF apps*
+**Let's lift up your LIFF apps :weight_lifter:**
+
 Feature collections to realize your creativity.
 
 - authorizer with [OAuth provided by LINE Corp](https://developers.line.biz/en/reference/line-login/#oauth)
