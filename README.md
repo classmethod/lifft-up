@@ -22,16 +22,16 @@ yarn add @classmethod/lifft-up
 
 Authentication by IDToken.
 
-```
+``` typescript
 import * as lifftUp from '@classmethod/lifft-up'
 
 (async () => {
-	// https://developers.line.biz/ja/reference/liff/#get-id-token
-	const idToken = liff.getIDToken()
-	// Specify Liff Channel ID.
-	const clientId = '1234567890'
-	// The IDToken payload will be returned.
-	const payload = await lifftUp.authorizer(idToken, clientId)
+　// https://developers.line.biz/en/reference/liff/#get-id-token
+　const idToken = liff.getIDToken()
+　// Specify Liff Channel ID.
+　const clientId = '1234567890'
+　// The IDToken payload will be returned.
+　const payload = await lifftUp.authorizer(idToken, clientId)
 })()
 
 ```
