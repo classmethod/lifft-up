@@ -27,9 +27,9 @@ import * as lifftUp from '@classmethod/lifft-up'
 
 (async () => {
 　// https://developers.line.biz/en/reference/liff/#get-id-token
-　const idToken = liff.getIDToken()
+　const idToken = <your id token>
 　// Specify Liff Channel ID.
-　const clientId = '1234567890'
+　const clientId = <your liff channel id>
 　// The IDToken payload will be returned.
 　const payload = await lifftUp.authorizer(idToken, clientId)
 })()
